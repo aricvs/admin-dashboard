@@ -29,6 +29,8 @@ li {
   background-color: #283739;
   grid-column: 1 / 1;
   grid-row: 1 / 5;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .sidebar-link {
@@ -44,4 +46,13 @@ li {
 
 .sidebar-dashboard a {
   font-size: 2rem;
+}
+
+.sidebar-action-links {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
 }
