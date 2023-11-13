@@ -41,18 +41,19 @@ li {
 .sidebar-dashboard {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .sidebar-dashboard a {
   font-size: 2rem;
 }
 
-.sidebar-action-links {
+.sidebar-action-links,
+.sidebar-support-links {
   margin: 0;
   padding: 0;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   font-size: 1.5rem;
 }
