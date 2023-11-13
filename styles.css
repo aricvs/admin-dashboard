@@ -28,7 +28,7 @@ a {
   grid-column: 1 / 1;
   grid-row: 1 / 5;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .sidebar-link {
@@ -36,8 +36,23 @@ a {
   font-weight: bolder;
 }
 
+.sidebar-dashboard {
+  display: flex;
+  flex-direction: column;
+}
+
 .sidebar-dashboard a {
   font-size: 2rem;
+}
+
+.sidebar-action-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-support-links {
+  display: flex;
+  flex-direction: column;
 }
 
 .sidebar-action-links a,
