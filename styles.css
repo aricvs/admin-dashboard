@@ -27,6 +27,8 @@ a {
   background-color: #283739;
   grid-column: 1 / 1;
   grid-row: 1 / 5;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
 }
 
 .sidebar-link {
