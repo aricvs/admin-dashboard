@@ -47,6 +47,18 @@ li {
   align-items: flex-start;
 }
 
+.sidebar-link {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.header-search svg,
+.sidebar-link svg {
+  width: 2rem;
+  fill: white;
+}
+
 .sidebar-dashboard a {
   font-size: 2rem;
 }
@@ -87,9 +99,4 @@ li {
   border-style: none;
   padding: 1rem;
   font-size: 1rem;
-}
-
-.header-search svg {
-  width: 2rem;
-  fill: white;
 }
