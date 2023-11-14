@@ -84,11 +84,14 @@ li {
   grid-row: 1 / 1;
   padding-left: 2rem;
   padding-right: 2rem;
-  padding-top: 1rem;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .header-search {
   display: flex;
+  align-items: center;
   gap: 1rem;
 }
 
