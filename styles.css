@@ -38,6 +38,7 @@ li {
 .sidebar-link {
   color: white;
   font-weight: bolder;
+  white-space: nowrap;
 }
 
 .sidebar-dashboard {
