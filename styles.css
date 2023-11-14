@@ -90,13 +90,12 @@ li {
 }
 
 .header-search {
+  font-size: 2rem;
   display: flex;
   align-items: center;
   gap: 1rem;
-}
-
-.header-search {
-  font-size: 2rem;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
 }
 
 .header-search input {
