@@ -88,3 +88,8 @@ li {
   padding: 1rem;
   font-size: 1rem;
 }
+
+.header-search svg {
+  width: 2rem;
+  fill: white;
+}
