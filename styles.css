@@ -256,6 +256,13 @@ li {
   margin: 0;
 }
 
+.card-icons {
+  justify-self: end;
+  display: flex;
+  gap: 1.5rem;
+  justify-content: space-between;
+}
+
 .card-icons svg {
   width: 2rem;
 }
