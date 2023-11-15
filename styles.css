@@ -221,3 +221,8 @@ li {
   grid-column: 1 / 2;
   grid-row: 1 / 2;
 }
+
+.articles-cards {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
