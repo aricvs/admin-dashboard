@@ -192,3 +192,11 @@ li {
   padding: 0.7rem;
   width: 6rem;
 }
+
+.header-buttons button:hover {
+  cursor: pointer;
+}
+
+.header-buttons button:active {
+  background-color: #283739;
+}
