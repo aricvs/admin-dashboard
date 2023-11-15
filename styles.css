@@ -110,9 +110,15 @@ li {
 .header-greeting {
   grid-column: 1 / 2;
   grid-row: 2 / 3;
+  display: grid;
+  grid-template-columns: 0.3fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
 
 .header-greeting img {
   border-radius: 50%;
   width: 5rem;
+  display: grid;
+  grid-column: 1 / 2;
+  grid-row: 1 / 3;
 }
