@@ -132,7 +132,7 @@ li {
   grid-row: 1 / 2;
   align-self: end;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .greeting-name {
@@ -140,7 +140,7 @@ li {
   grid-row: 2 / 3;
   align-self: start;
   color: white;
-  font-weight: bold;
+  font-weight: bolder;
   font-size: 1.5rem;
 }
 
@@ -159,4 +159,9 @@ li {
 .header-notification img {
   border-radius: 50%;
   width: 3.5rem;
+}
+
+.header-notification span {
+  color: white;
+  font-weight: bolder;
 }
