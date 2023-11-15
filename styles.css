@@ -274,3 +274,9 @@ li {
   grid-template-rows: 1fr 1fr;
   max-height: 70vh;
 }
+
+.trending-person img {
+  border-radius: 50%;
+  width: 3.5rem;
+  cursor: pointer;
+}
