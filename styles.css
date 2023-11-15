@@ -280,6 +280,11 @@ li {
   background-color: white;
 }
 
+.updates-trending {
+  display: grid;
+  gap: 0.6rem;
+}
+
 .updates-trending > span {
   font-size: 1.6rem;
   font-weight: bolder;
