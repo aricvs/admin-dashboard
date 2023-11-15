@@ -216,6 +216,7 @@ li {
   grid-column: 1 / 2;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr 1fr;
+  max-height: 60vh;
 }
 
 .articles-heading {
