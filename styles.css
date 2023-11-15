@@ -280,6 +280,11 @@ li {
   background-color: white;
 }
 
+.updates-trending > span {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
 .trending-trending {
   border-radius: 10px;
   background-color: white;
