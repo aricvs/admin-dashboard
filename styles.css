@@ -206,9 +206,10 @@ li {
   grid-row: 2 / 5;
   background-color: #e0e0e0;
   display: grid;
-  grid-template-columns: 3fr 1fr;
+  grid-template-columns: 3fr 1.5fr;
   padding: 1rem;
   padding-bottom: 3rem;
+  gap: 1rem;
 }
 
 .content-articles {
@@ -216,7 +217,7 @@ li {
   grid-column: 1 / 2;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 0.2fr 1fr 1fr 1fr;
-  max-height: 60vh;
+  max-height: 70vh;
 }
 
 .articles-heading {
@@ -268,8 +269,14 @@ li {
   width: 2rem;
 }
 
-.updates-announcements > span,
-.updates-trending > span {
+.main-container-updates {
+  grid-column: 2 / 3;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+}
+
+.updates-announcements span,
+.updates-trending span {
   font-weight: bolder;
   font-size: 1.6rem;
 }
