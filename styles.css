@@ -150,6 +150,8 @@ li {
   display: flex;
   align-items: center;
   gap: 2rem;
+  justify-content: space-between;
+  justify-self: end;
 }
 
 .header-notification svg {
