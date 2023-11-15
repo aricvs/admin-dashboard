@@ -268,3 +268,9 @@ li {
 .card-icons svg {
   width: 2rem;
 }
+
+.main-container-updates {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  max-height: 70vh;
+}
