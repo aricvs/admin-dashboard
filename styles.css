@@ -267,3 +267,9 @@ li {
 .card-icons svg {
   width: 2rem;
 }
+
+.updates-announcements > span,
+.updates-trending > span {
+  font-weight: bolder;
+  font-size: 1.6rem;
+}
