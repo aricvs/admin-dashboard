@@ -207,7 +207,7 @@ li {
   background-color: #e0e0e0;
   display: grid;
   grid-template-columns: 3fr 1.5fr;
-  padding: 1rem;
+  padding: 2rem;
   padding-bottom: 3rem;
   gap: 1rem;
 }
@@ -270,14 +270,29 @@ li {
 }
 
 .main-container-updates {
-  display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 0.7fr 1fr;
   max-height: 70vh;
   overflow: auto;
+  display: grid;
+}
+
+.updates-announcements > span {
+  font-size: 1.6rem;
+  font-weight: bolder;
+}
+
+.updates-announcements {
+  display: grid;
 }
 
 .announcements-announcements {
   background-color: white;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.announcements-announcements span {
+  font-weight: bolder;
 }
 
 .updates-trending {
@@ -288,6 +303,7 @@ li {
 .updates-trending > span {
   font-size: 1.6rem;
   font-weight: bolder;
+  align-self: end;
 }
 
 .trending-trending {
