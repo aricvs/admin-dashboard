@@ -157,14 +157,17 @@ li {
 .header-notification svg {
   width: 2rem;
   fill: white;
+  cursor: pointer;
 }
 
 .header-notification img {
   border-radius: 50%;
   width: 3.5rem;
+  cursor: pointer;
 }
 
 .header-notification span {
   color: white;
   font-weight: bolder;
+  cursor: pointer;
 }
