@@ -275,6 +275,14 @@ li {
   max-height: 70vh;
 }
 
+.announcements-announcements {
+  background-color: white;
+}
+
+.trending-trending {
+  background-color: white;
+}
+
 .trending-person img {
   border-radius: 50%;
   width: 3.5rem;
