@@ -171,3 +171,14 @@ li {
   font-weight: bolder;
   cursor: pointer;
 }
+
+.header-buttons button {
+  background-color: #a2c11c;
+  color: white;
+  font-weight: bolder;
+  font-size: 1rem;
+  border-radius: 20px;
+  border-style: none;
+  padding: 0.7rem;
+  width: 6rem;
+}
